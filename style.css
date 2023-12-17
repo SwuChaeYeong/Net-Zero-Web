@@ -1,5 +1,5 @@
 /*헤더*/
-header{
+#home{
     background-image: url(images/header_background.png);
     background-size: cover;
     background-position: center top;
@@ -40,11 +40,11 @@ h1{
     position: absolute;
 }
 
-#weather-change {
+#weather-change, #together_home {
     background-color: #f3f3f3;
 }
 
-#together {
+#together, #our_earth_home, .post:hover, .post:active {
     background-color: #F4F8F5;
 }
 
@@ -52,18 +52,39 @@ h1{
     border-radius: 50%;
 }
 
-#together_home{
-    background-color: #f3f3f3;
-}
-
 .post{
     background-color: white;
-}
-.post:hover, .post:active{
-    background-color: #F4F8F5;
 }
 
 .page:hover{
     color: #ffffff;
     background-color: #333333;
+}
+
+.newspaper{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4)), url(images/newspaper_p.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+#definition{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url(images/what_is_net_zero_main.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+td, th{
+    padding: 10px 15px;
+}
+
+#need{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1.0)), url(images/need_polar.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#goods{
+    background-image: linear-gradient(to top, rgba(243, 243, 243, 1.0), rgba(243, 243, 243, 0.0));
 }
