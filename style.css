@@ -40,11 +40,11 @@ h1{
     position: absolute;
 }
 
-#weather-change, #together_home {
+#weather-change, #together_home, #consumption {
     background-color: #f3f3f3;
 }
 
-#together, #our_earth_home, .post:hover, .post:active {
+#together, #our_earth_home, .post:hover, .post:active, #recycle {
     background-color: #F4F8F5;
 }
 
@@ -71,7 +71,6 @@ h1{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url(images/what_is_net_zero_main.jpg);
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
 }
 
 td, th{
@@ -87,4 +86,40 @@ td, th{
 
 #goods{
     background-image: linear-gradient(to top, rgba(243, 243, 243, 1.0), rgba(243, 243, 243, 0.0));
+}
+
+#daily_home{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url(images/practice_main.png);
+    background-size: cover;
+    background-position: center top;
+}
+
+.prac{
+    text-decoration: none;
+    color:black;
+}
+.prac:hover, .prac:active{
+    background-color: #4B6448;
+    color: white;
+}
+
+#energy{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url(images/energy_conservation_p.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#movement{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)), url(images/public_transport_p.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#protection{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url(images/nature_protect_p.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 }
